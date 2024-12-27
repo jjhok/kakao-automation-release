@@ -5,9 +5,10 @@
 # 사용법
 1. 메시지를 작성합니다. (최대 5개, 이미지 가능)
 2. 보내려는 대화 상대의 대화창을 모두 열어둡니다.
-3. '메시지 보내기'를 실행합니다.
+3. **프로그램의 '열려있는 대화창' 목록이 잘 수집되었는지 꼭 확인합니다.**
+4. '메시지 보내기'를 실행합니다.
 
-# MacOs 
+# MacOs ([다운로드](https://github.com/jjhok/kakao-automation-release/tree/main/macos))
 ## 개발자 코드 사인 필수 
 1. 압축 후, 응용프로그램(Applications)으로 이동합니다.
 2. 터미널에서 아래 커맨드를 사용해 코드 사이닝합니다.
@@ -18,6 +19,8 @@ codesign --force --deep --sign - /Applications/KakaoMacro.app
    - 개인정보 및 보안 > 화면 및 시스템 녹음
    - 개인정보 및 보안 > 손쉬운 사용
 
-# Windows
+# Windows ([다운로드](https://github.com/jjhok/kakao-automation-release/tree/main/windows))
 - 개발 환경이 없어서 충분히 테스트 되지 않았습니다. 
 - 압축 후 보안 프로그램에 의해 실행파일이 삭제될 수 있습니다. 보안 설정 해제 후 사용할 수 있습니다.
+- 실행화면
+![실행화면](https://github.com/jjhok/kakao-automation-release/blob/main/windows/kakaoMacro_windows.gif?raw=true)
